@@ -1,0 +1,93 @@
+h1{
+	color:blue;
+	font-family:verdana;
+	font-size:150%;
+	border: 5px solid red;
+}
+p{
+	color:blue;
+	
+	
+}
+body{
+	background-color:aquamarine;
+	
+	background-size:cover;
+	
+	
+	
+}
+img{
+	width:200px;
+	height=200px;
+	float:left;
+	border:1px solid white;
+	
+}
+#id1{
+	color:red;
+	border: 5px solid white;
+	text-align:center;
+	text-decoration: underline;
+	letter-spacing:4px;
+	line-height:60x;
+	text-shadow: 5px 2px blue;
+	word-spacing: 10px;
+	
+	
+	
+}
+#id2{
+	color:white;
+	text-indent: 45px;
+	direction:rtl;
+	
+}
+#id3{
+		color:green;
+}
+.cl1{
+	color:red;
+}
+.cl2{
+	color:grey;
+}
+.cl3{
+	color:black;
+}
+
+a.cl1{
+	
+	color:yellow;
+	border: 2px solid yellow;
+	padding: 5px;
+	margin:10px;
+	
+}
+
+.divcls{
+	background-color:white;
+	border: 5px solid black;
+	
+}
+
+table,th,td{
+	border: 1px solid black;
+}
+
+/* psuedoclass*/
+a:link{        /*unvisited*/
+	color:#FF0000;
+}
+a:visited{
+	color:#FFFFFF;
+}
+a:hover{
+	color:#000000;
+}
+a:active{
+	color:#000000;
+}
+tr:hover{
+	background-color:grey;
+}

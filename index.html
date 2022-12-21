@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta></meta>
+		<title>LPU </title>
+		<link rel="stylesheet" href="style/style.css">
+		<!-- internal css 
+		<style>
+			h1{
+			color:black;
+			font-family:verdana;
+			font-size:100%;
+			
+		}
+		</style> -->
+	</head>
+	<body>
+	<!-- inline css-->
+		<h1> This is our first interaction with the offline editor</h1>
+		<p id="id1"> We will try everything in class </p>
+		<p id="id2"> We will try everything in class </p>
+		<p id="id3"> We will try everything in class </p>
+		
+		<!-- testing class -used for style different things under same tag-->
+		<p class="cl1 cl2" > We will try everything in class </p>   <!-- second class will dominate b/w two classes -->
+		<p class="cl2"> We will try everything in class </p>
+		<p class="cl3"> We will try everything in class </p>
+		<a class="cl1 "href="https://google.com">google</a>
+		
+		<!-- anchor tag for clickable link-->
+		<a style="color:red" href="https://www.youtube.com/" target="blank">Youtube</a>
+		
+		<div class="divcls">
+			<p> this is div </p>
+			<p> this is div </p>
+			<p> this is div </p>
+		</div>
+		<span class="cl1"> 
+			<p>this is span not div</p>
+		</span>
+		<img src="https://th.bing.com/th/id/OIP.e7DA6Wu6Ozp-L9XBVSB7SQHaE8?pid=ImgDet&rs=1">
+		<img src="images/img1.jfif" alt="flowers" >   <!--relative path -->
+		
+		
+		<!--video-->
+		
+		<video style="float:left" controls loop>  <!--controls is for play and pause the videos / loop for contiuous play of video -->
+			<source src="videos/video.mp4" type="video/mp4">
+<!--Syntax-->    <!-- *folder name*/file name.type 	-->
+		</video>
+		<audio controls>
+			<source src="audios/audio.mp3 " type="audio/mp3">
+				     <!-- *folder name*/file name.type 	-->
+		</audio>
+		
+		<!--Tables -->
+		<table>
+			<tr>
+				<th>Name</th>
+				<th colspan="2">Phone</th> <!-- colspan to merge columns-->
+			</tr>
+			<tr>
+				<td>Monal</td>
+				<td>9999999999</td>
+				<td>740-76848</td>
+			</tr>
+			<tr>
+				<td>Nikhil</td>
+				<td>00000000000</td>
+				<td rowspan="2">740-545151</td>
+			</tr>
+			<tr>
+				<td>X</td>
+				<td>00000000000</td>
+				
+			</tr>
+		</table>
+		<hr><br></br>
+		<a href="https://google.com" target="blank">google</a>
+		<br><br>   <!--"<br> tags are used for creating spaces between to things"-->
+		
+		<!--Forms-->
+		<form action="/action_page.php" method="get">  <!-- there are 2 terms under method get and post get reveals the filled data on the above link and post hides the filled data-->
+			<label for="fname">First Name</label>
+			<!-- for and id are used to connect label and input for respective input // and name is used to sort information in backend-->
+			<input type="text" id="fname" name="fname"><br><br>  <!--"for" and "id" name can be anything-->
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lname"><br><br>
+			<label for="fradio">LPU Students</label>
+			<input type="radio" id="fradio" name="fradio"><br><br>
+			<label for="fcheck">Attending CSE class</label>
+			<input type="checkbox" id="fcheck" name="fcheck"><br><br>
+			<!--password-->
+			<label for="fpass">Enter your password</label>
+			<input type="password" id="fpass" name="fpass"><br><br>
+			<label for="ffile">Upload your resume</label>
+			<input type="file" id="ffile" name="ffile"><br><br>
+			<label for="skills">Your Fav skills</label>
+				<select id="skill" name="skill">  <!-- "select and option are used for selecting options in our form as our input"-->
+					<option>html</option>
+					<option>css</option>
+					<option>c++</option>
+					<option>python</option>
+				</select><br><br>
+			<textarea id="txt" name=
+             "txt" rows="4" cols="50"> </textarea> <br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>	
+
+</html>
